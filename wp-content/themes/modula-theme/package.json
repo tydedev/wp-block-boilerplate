@@ -1,0 +1,25 @@
+{
+    "name": "modula-theme",
+    "version": "1.0.0",
+    "description": "A modern WordPress block theme built with React",
+    "main": "index.js",
+    "scripts": {
+        "start": "wp-scripts start",
+        "build": "wp-scripts build",
+        "format:js": "wp-scripts format-js",
+        "lint:js": "wp-scripts lint-js",
+        "packages-update": "wp-scripts packages-update",
+        "test:e2e": "wp-scripts test-e2e",
+        "test:unit": "wp-scripts test-unit-js"
+    },
+    "dependencies": {
+        "@wordpress/block-editor": "^10.0.0",
+        "@wordpress/blocks": "^11.0.0",
+        "@wordpress/components": "^19.0.0",
+        "@wordpress/element": "^4.0.0",
+        "@wordpress/scripts": "^24.0.0"
+    },
+    "devDependencies": {
+        "@wordpress/eslint-plugin": "^13.0.0"
+    }
+}
